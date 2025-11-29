@@ -26,6 +26,7 @@ button:hover {
 }
 
 #outputWords {
+    white-space: pre-line;
     font-weight: bold;
     margin-top: 20px;
 }
