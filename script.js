@@ -9,7 +9,7 @@ function sortWords() {
     const sortedWordList = wordList.sort((a, b) => a.localeCompare(b));
     
     // Join the sorted words back into a string
-    const outputString = sortedWordList.join(', ');
+    const outputString = sortedWordList.join('\n');
     
     // Display the sorted words
     document.getElementById('outputWords').textContent = outputString;
